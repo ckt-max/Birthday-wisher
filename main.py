@@ -47,7 +47,7 @@ for i,j in df.iterrows():
 
         print('Composing Email....')
 
-        email_sender = 'testmail.ckt01@gmail.com'
+        email_sender = 'your_gmail_account'
         email_password = os.environ.get('email_pass')
         email_receiver = j.email
 
